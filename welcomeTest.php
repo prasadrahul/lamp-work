@@ -14,7 +14,7 @@
 		public function testGreet(){
 
 			$result = $this->welcome->greet();
-			$this->assertEquals("welcome to Devops on AWS",$result);
+			$this->assertEquals("welcome to Devops on AWS !",$result);
 		}
 	}
 
